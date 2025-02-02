@@ -164,7 +164,7 @@ def get_symbol_keyboard():
 @bot.message_handler(content_types=['text'])
 def input_simbols(message):
     """
-    Обрабатывает выбор пользователя (NO)
+    Обрабатывает выбор пользователя (NO), и передает введенные символы в метод преобразования в ASCII-арт.
     :param message: Сообщение от пользователя с введенными символами.
     :return: None
     """
